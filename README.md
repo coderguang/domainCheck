@@ -2,7 +2,7 @@ domianCheckScript
 in linux
 
 use ./start.sh to start the domainCheck Script
-
+use pwhois can solve the cpu too high problem!
 
 belown is old wiki:
 use ./file to produce the domain list
