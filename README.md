@@ -1,6 +1,10 @@
 domianCheckScript
 in linux
 
+use ./start.sh to start the domainCheck Script
+
+
+belown is old wiki:
 use ./file to produce the domain list
 and use ./start.sh to check the domain regit status
 finally you can look the log to get the unregit domain
