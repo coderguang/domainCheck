@@ -3,10 +3,10 @@
 
 using namespace std;
 int main(){
-	string str="abcdefghijklmnopqrstuvwxyz";
+	string str="zyxwvutsrqponmlkjihgfedcba0123456789";
 	string com=".com";
 
-	const int MAX=26;
+	const int MAX=36;
 
 	ofstream file3;
 	file3.open("list3.txt");
@@ -38,7 +38,7 @@ int main(){
 	file4<<"list4endtest"<<com<<endl;	
 	cout<<"make list4 done!"<<endl;
 	file4.close();
-	
+/*	
 	ofstream file5;
 	file5.open("list5.txt");
 	file5<<"thisisatestfile5"<<com<<endl;
@@ -106,7 +106,7 @@ int main(){
 	numFile5<<"numlist5endnumTest"<<com<<endl;	
 	cout<<"make numlist5 done!"<<endl;
 	numFile5.close();
-
+*/
 	cout<<"all weblist maked!"<<endl;
 
 
