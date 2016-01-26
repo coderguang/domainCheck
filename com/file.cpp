@@ -38,7 +38,7 @@ int main(){
 	file4<<"list4endtest"<<com<<endl;	
 	cout<<"make list4 done!"<<endl;
 	file4.close();
-/*	
+	
 	ofstream file5;
 	file5.open("list5.txt");
 	file5<<"thisisatestfile5"<<com<<endl;
@@ -90,6 +90,7 @@ int main(){
 	cout<<"make numlist4 done!"<<endl;
 	numFile4.close();
 	
+/*
 	ofstream numFile5;
 	numFile5.open("numlist5.txt");
 	numFile5<<"thisisanumTestnumFile5"<<com<<endl;
