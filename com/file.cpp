@@ -39,6 +39,7 @@ int main(){
 	cout<<"make list4 done!"<<endl;
 	file4.close();
 	
+/*
 	ofstream file5;
 	file5.open("list5.txt");
 	file5<<"thisisatestfile5"<<com<<endl;
@@ -56,6 +57,7 @@ int main(){
 	cout<<"make list5 done!"<<endl;
 	file5.close();
 	
+*/
 	const int NUMMAX=10;
 	string strNum="0123456789";
 
@@ -90,7 +92,7 @@ int main(){
 	cout<<"make numlist4 done!"<<endl;
 	numFile4.close();
 	
-/*
+
 	ofstream numFile5;
 	numFile5.open("numlist5.txt");
 	numFile5<<"thisisanumTestnumFile5"<<com<<endl;
@@ -107,7 +109,7 @@ int main(){
 	numFile5<<"numlist5endnumTest"<<com<<endl;	
 	cout<<"make numlist5 done!"<<endl;
 	numFile5.close();
-*/
+
 	cout<<"all weblist maked!"<<endl;
 
 
