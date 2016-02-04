@@ -1,4 +1,14 @@
+
+
+
+
+
+
+
+
 domianCheckScript
+
+
 in linux
 
 use ./start.sh to start the domainCheck Script
