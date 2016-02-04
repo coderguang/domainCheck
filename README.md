@@ -1,11 +1,21 @@
 
 
 
+Version 3.0
+  change must code
+  
+  use example:
+  input commond:
+  1. make
+  2. ./file
+  3. ./find.sh **.txt
 
 
 
 
 
+
+/*-----------below is old docs------*/
 domianCheckScript
 
 
