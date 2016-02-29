@@ -19,7 +19,8 @@ date
 
 while read line
 do
-  whois $line | grep "No match"
+  result=`pwhois $line | grep "No match"`
+  echo $result
 done<$1
 
 echo "find $1 data end time is"
