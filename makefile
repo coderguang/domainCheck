@@ -1,6 +1,7 @@
-file : file.o
+file filecn: file.o filecn.cpp
 	clang++ -o file -g file.o
-file.o : file.cpp
-	clang++ -c -g file.cpp
+	clang++ -o filecn -g filecn.cpp
+file.o filecn.o: file.cpp filecn.cpp
+	clang++ -c -g file.cpp filecn.cpp
 clean :
 	rm *.o

@@ -19,7 +19,8 @@ date
 
 while read line
 do
-  pwhois $line | grep "No match"
+  echo "below is $line date info----"
+  pwhois $line | grep "Date"
   sleep 5
 done<$1
 

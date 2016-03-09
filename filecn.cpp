@@ -4,7 +4,7 @@
 using namespace std;
 
 string str="zyxwvutsrqponmlkjihgfedcba";//0123456789";
-string com=".com";
+string com=".cn";
 
 const int MAX=26;
 
@@ -12,7 +12,7 @@ const int MAX=26;
 void make3list(){
 
   ofstream file3;
-  file3.open("list3.txt");
+  file3.open("cnlist3.txt");
   file3<<"thisisatestfile3"<<com<<endl;
 
   for(int i=0;i<MAX;i++){
@@ -31,7 +31,7 @@ void make3list(){
 void make4list(){
 
   ofstream file4;
-  file4.open("list4.txt");
+  file4.open("cnlist4.txt");
   file4<<"thisisatestfile4"<<com<<endl;
 
   for(int m=0;m<MAX;m++)
@@ -52,7 +52,7 @@ void make5list(){
 
 
   ofstream file5;
-  file5.open("list5.txt");
+  file5.open("cnlist5.txt");
   file5<<"thisisatestfile5"<<com<<endl;
 
   for(int s=0;s<MAX;s++)
@@ -76,7 +76,7 @@ void makeNum(){
   string strNum="0123456789";
 
   ofstream numFile3;
-  numFile3.open("numlist3.txt");
+  numFile3.open("cnnumlist3.txt");
   numFile3<<"thisisanumTestnumFile3"<<com<<endl;
 
   for(int i=0;i<NUMMAX;i++){
@@ -91,7 +91,7 @@ void makeNum(){
   numFile3.close();
 
   ofstream numFile4;
-  numFile4.open("numlist4.txt");
+  numFile4.open("cnnumlist4.txt");
   numFile4<<"thisisanumTestnumFile4"<<com<<endl;
 
   for(int m=0;m<NUMMAX;m++)
@@ -108,7 +108,7 @@ void makeNum(){
 
 
   ofstream numFile5;
-  numFile5.open("numlist5.txt");
+  numFile5.open("cnnumlist5.txt");
   numFile5<<"thisisanumTestnumFile5"<<com<<endl;
 
   for(int s=0;s<NUMMAX;s++)
@@ -130,8 +130,8 @@ void makeNum(){
 
 
 int main(){
-  //makeNum();
-  make4list();
+  makeNum();
+  //makelist();
   cout<<"all weblist maked!"<<endl;
 
 }
