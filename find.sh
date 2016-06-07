@@ -19,7 +19,14 @@ date
 
 while read line
 do
-  pwhois $line | grep "No match"
+  result=$(pwhois $line | grep "No match"|wc -l)
+  echo $result
+  if [ $result -eq 1 ] 
+  then
+     echo "this host not regist"|mail -s $line 844352155@qq.com
+     echo $line
+     sleep 5
+  fi
   sleep 5
 done<$1
 
