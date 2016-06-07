@@ -20,14 +20,14 @@ date
 while read line
 do
   result=$(pwhois $line | grep "No match"|wc -l)
-  echo $result
+  #echo $result
   if [ $result -eq 1 ] 
   then
      echo "this host not regist"|mail -s $line 844352155@qq.com
      echo $line
      sleep 5
   fi
-  sleep 5
+  sleep 2
 done<$1
 
 echo "find $1 data end time is"

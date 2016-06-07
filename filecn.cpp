@@ -77,50 +77,50 @@ void makeNum(){
 
   ofstream numFile3;
   numFile3.open("cnnumlist3.txt");
-  numFile3<<"thisisanumTestnumFile3"<<com<<endl;
+  //numFile3<<"thisisanumTestnumFile3"<<com<<endl;
 
   for(int i=0;i<NUMMAX;i++){
-    numFile3<<"thiis3numTest"<<strNum[i]<<com<<endl;
+    //numFile3<<"thiis3numTest"<<strNum[i]<<com<<endl;
     for(int j=0;j<NUMMAX;j++)
       for(int k=0;k<NUMMAX;k++){
         numFile3<<strNum[i]<<strNum[j]<<strNum[k]<<com<<endl;
       }
   }
-  numFile3<<"numlist3endnumTest"<<com<<endl;	
+  //numFile3<<"numlist3endnumTest"<<com<<endl;	
   cout<<"make numlist3 done!"<<endl;
   numFile3.close();
 
   ofstream numFile4;
   numFile4.open("cnnumlist4.txt");
-  numFile4<<"thisisanumTestnumFile4"<<com<<endl;
+  //numFile4<<"thisisanumTestnumFile4"<<com<<endl;
 
   for(int m=0;m<NUMMAX;m++)
     for(int i=0;i<NUMMAX;i++){
-      numFile4<<"thiis4numTest"<<strNum[m]<<strNum[i]<<com<<endl;
+      //numFile4<<"thiis4numTest"<<strNum[m]<<strNum[i]<<com<<endl;
       for(int j=0;j<NUMMAX;j++)
         for(int k=0;k<NUMMAX;k++){
           numFile4<<strNum[m]<<strNum[i]<<strNum[j]<<strNum[k]<<com<<endl;
         }
     }
-  numFile4<<"numlist4endnumTest"<<com<<endl;	
+  //numFile4<<"numlist4endnumTest"<<com<<endl;	
   cout<<"make numlist4 done!"<<endl;
   numFile4.close();
 
 
   ofstream numFile5;
   numFile5.open("cnnumlist5.txt");
-  numFile5<<"thisisanumTestnumFile5"<<com<<endl;
+  //numFile5<<"thisisanumTestnumFile5"<<com<<endl;
 
   for(int s=0;s<NUMMAX;s++)
     for(int m=0;m<NUMMAX;m++)
       for(int i=0;i<NUMMAX;i++){
-        numFile5<<"thiis5numTest"<<strNum[s]<<strNum[m]<<strNum[i]<<com<<endl;
+        //numFile5<<"thiis5numTest"<<strNum[s]<<strNum[m]<<strNum[i]<<com<<endl;
         for(int j=0;j<NUMMAX;j++)
           for(int k=0;k<NUMMAX;k++){
             numFile5<<strNum[s]<<strNum[m]<<strNum[i]<<strNum[j]<<strNum[k]<<com<<endl;
           }
       }
-  numFile5<<"numlist5endnumTest"<<com<<endl;	
+  //numFile5<<"numlist5endnumTest"<<com<<endl;	
   cout<<"make numlist5 done!"<<endl;
   numFile5.close();
 

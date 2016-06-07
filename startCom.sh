@@ -13,10 +13,10 @@
 #***********************************************
 
 
-sh find.sh cnnumlist3.txt >>/mnt/data/domain/cnnumber3 &
+sh find.sh numlist3.txt >>/mnt/data/domain/comnumber3 &
 
-sh find.sh cnnumlist4.txt >> /mnt/data/domain/cnnumber4 &
+sh find.sh numlist4.txt >> /mnt/data/domain/comnumber4 &
 
-sh find.sh cnnumlist5.txt >> /mnt/data/domain/cnnumber5 &
+sh find.sh numlist5.txt >> /mnt/data/domain/comnumber5 &
 
 
