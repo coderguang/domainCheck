@@ -1,9 +1,6 @@
-language:c++
+language: cpp
 
-install:
-    -pwhois 
-    -make 
-    -clang
+install: pwhois
 
 compiler:
     -clang
