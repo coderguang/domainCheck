@@ -19,7 +19,7 @@ date
 
 while read line
 do
-  result=$(whois $line | grep "No match"|wc -l)
+  result=$(pwhois $line | grep "No match"|wc -l)
   #echo $result
   if [ $result -eq 1 ] 
      echo "host had regist,domain:$line"
