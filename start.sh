@@ -13,12 +13,12 @@
 #***********************************************
 
 
-#sh find.sh numlist3.txt >>/mnt/data/domain/number3 &
+#sh find.sh numlist3.txt >>./data/domain/number3 &
 
-#sh find.sh numlist4.txt >> /mnt/data/domain/number4 &
+#sh find.sh numlist4.txt >> ./data/domain/number4 &
 
-#sh find.sh numlist5.txt >> /mnt/data/domain/number5 &
+#sh find.sh numlist5.txt >> ./data/domain/number5 &
 
-#sh find.sh list3.txt >> /mnt/data/domain/list3 &
+#sh find.sh list3.txt >> ./data/domain/list3 &
 
-sh find.sh list4.txt >> /mnt/data/domain/list4 &
+sh find.sh list4.txt >> ./data/domain/list4 &
