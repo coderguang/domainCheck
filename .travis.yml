@@ -2,7 +2,9 @@ language: cpp
 
 compiler: clang
 
-install: make whois
+install: 
+  - make 
+  - whois
 
 script:
     - make clean
