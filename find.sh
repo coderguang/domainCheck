@@ -19,9 +19,10 @@ date
 
 while read line
 do
-  result=$(pwhois $line | grep "No match"|wc -l)
+  result=$(whois $line | grep "No match"|wc -l)
   #echo $result
   if [ $result -eq 1 ] 
+     echo "host had regist,domain:$line"
   then
      #echo "this host not regist"|mail -s $line royalchen@royalchen.com
      echo "this host not regist,domain:$line"

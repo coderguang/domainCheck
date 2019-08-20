@@ -2,10 +2,11 @@ language: cpp
 
 compiler: clang
 
-install: make
+install: make whois
 
 script:
     - make clean
     - make
     - ./file
     - ./filecn
+    - sh find.sh *.txt
