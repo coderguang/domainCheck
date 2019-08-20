@@ -3,7 +3,7 @@ language: cpp
 compiler: clang
 
 before_install: 
-    - sudo apt-get install -y pwhois
+    - sudo apt-get install -y whois
 
 script:
     - make clean
