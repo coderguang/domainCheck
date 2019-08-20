@@ -5,7 +5,7 @@ compiler: clang
 install: make
 
 script:
-    make clean
-    make
-    ./file
-    ./filecn
+    - make clean
+    - make
+    - ./file
+    - ./filecn
