@@ -13,12 +13,12 @@
 #***********************************************
 
 
-#sh findDate.sh numlist3.txt >>/mnt/data/domain/Dtnumber3 &
+#sh findDate.sh numlist3.txt >>./data/domain/Dtnumber3 &
 
-sh findDate.sh numlist4.txt >> /mnt/data/domain/Dtnumber4 &
+sh findDate.sh numlist4.txt >> ./data/domain/Dtnumber4 &
 
-sh findDate.sh numlist5.txt >> /mnt/data/domain/Dtnumber5 &
+sh findDate.sh numlist5.txt >> ./data/domain/Dtnumber5 &
 
-sh findDate.sh list3.txt >> /mnt/data/domain/Dtlist3 &
+sh findDate.sh list3.txt >> ./data/domain/Dtlist3 &
 
-#sh findDate.sh list4.txt >> /mnt/data/domain/list4 &
+#sh findDate.sh list4.txt >> ./data/domain/list4 &
