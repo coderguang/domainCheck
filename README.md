@@ -19,7 +19,7 @@ domainCheck
     make clean
     make
 ```
-     it use clang to build,you also can use g++ to build it,you just need to modify clang++ to g++  in makefile
+   it use clang to build,you also can use g++ to build it,you just need to modify clang++ to g++  in makefile
      
      
 ### 3. start find domainCheck
