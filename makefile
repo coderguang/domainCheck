@@ -4,4 +4,4 @@ file filecn: file.o filecn.cpp
 file.o filecn.o: file.cpp filecn.cpp
 	clang++ -c -g file.cpp filecn.cpp
 clean :
-	rm *.o
+	rm *.o file filecn
