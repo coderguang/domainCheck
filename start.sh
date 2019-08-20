@@ -13,6 +13,8 @@
 #***********************************************
 
 
+test -d data/domain||mkdir -p data/domain
+
 #sh find.sh numlist3.txt >>./data/domain/number3 &
 
 #sh find.sh numlist4.txt >> ./data/domain/number4 &

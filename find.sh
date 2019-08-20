@@ -23,7 +23,8 @@ do
   #echo $result
   if [ $result -eq 1 ] 
   then
-     echo "this host not regist"|mail -s $line 844352155@qq.com
+     #echo "this host not regist"|mail -s $line royalchen@royalchen.com
+     echo "this host not regist,domain:$line"
      echo $line
      sleep 5
   fi
