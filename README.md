@@ -1,35 +1,36 @@
+domainCheck
+====
+
+[![Build Status](https://travis-ci.org/coderguang/domainCheck.svg?branch=master)](https://travis-ci.org/coderguang/domainCheck)
 
 
+## just a simple check domain 
+   
+   now you can get a effective domain check tool, **[domainCheck_go](https://github.com/coderguang/domainCheck_go)**
 
-Version 3.0
-  change must code
-  
-  use example:
-  input commond:
-  1. make
-  2. ./file
-  3. ./find.sh **.txt
+## how to start
 
+### 1. first install whois in your linux ,like centos:
+```shell
+    yum install -y whois
+```
+### 2. use make to complie the file
+```shell
+    make clean
+    make
+```
+     it use clang to build,you also can use g++ to build it,you just need to modify clang++ to g++  in makefile
+     
+     
+### 3. start find domainCheck
+```shell
+  sh find.sh *.txt
+```
 
-
-
-
-
-/*-----------below is old docs------*/
-domianCheckScript
-
-
-in linux
-
-use ./start.sh to start the domainCheck Script
-use pwhois can solve the cpu too high problem!
-
-belown is old wiki:
-use ./file to produce the domain list
-and use ./start.sh to check the domain regit status
-finally you can look the log to get the unregit domain
-
-you must have install jwhois before your use ./start.sh to make the list
-
-it will cause the cpu to 100%,this is the jwhois bug in centos,but seems it had fixed in Fedora and other linux.
+     
+## others
+  * use pwhois can solve the cpu too high problem!
+  * finally you can look the log to get the unregit domain
+  * you must have install whois before use
+  * it will cause the cpu to 100%,this is the jwhois bug in centos,but seems it had fixed in Fedora and other linux.
 if you have the better solutions.expect your advises.
