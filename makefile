@@ -5,4 +5,4 @@ file.o filecn.o: file.cpp filecn.cpp
 	clang++ -c -g file.cpp filecn.cpp
 clean :
 	-rm -rf *.o 
-	-rf -rf file filecn
+	-rm -rf file filecn
